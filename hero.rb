@@ -1,5 +1,5 @@
 class Hero
-  def initialize(name, health=100)
+  def initialize(name, health = 100)
     @name = name.capitalize
     @health = health
   end
@@ -21,8 +21,8 @@ class Hero
   end
 end
 
-hero = Hero.new 'mike'
-puts hero.name
-puts hero.power_up
-puts hero.power_down
-puts hero.hero_info
+#hero = Hero.new 'mike'
+#puts hero.name
+#puts hero.power_up
+#puts hero.power_down
+#puts hero.hero_info
